@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "id90travel-hotels"
-version = "0.1.0"
+version = "1.0.0"
 description = "Scrape ID90Travel's website for available hotels"
 license = "MIT"
 authors = ["Timothy Pettingill <50350617+timothypettingill@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+httpx = "^0.16.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
